@@ -2,6 +2,7 @@
 Использование библиотеки
 
 code block
+```c#
 var parse = LinkParser.Parse("wall123_123");
 
             switch (parse.Type)
@@ -13,3 +14,4 @@ var parse = LinkParser.Parse("wall123_123");
                     Console.WriteLine(parse.Id1 + " " + parse.Id2);
                     break;
             }
+```
