@@ -1,7 +1,7 @@
 # jungfranco.helpers
 
 
-#Использование библиотеки (как достать ID из ссылки)
+## Использование библиотеки (как достать ID из ссылки)
 
 ```c#
 var parse = LinkParser.Parse("wall123_123");
@@ -17,7 +17,7 @@ switch (parse.Type)
 }
 ```
 
-#Передвижение формы 
+## Передвижение формы 
 ``` C#
 using jf = JungFranco.Helpers.Events;
 ...
@@ -26,7 +26,7 @@ jf.MouseDown.Handle = Handle;
 MouseDown += jf.MouseDown.MouseOffset;
 ```
 
-#Ввод только цифр в TextBox
+## Ввод только цифр в TextBox
 ``` C#
 using jf = JungFranco.Helpers.Events;
 ...
